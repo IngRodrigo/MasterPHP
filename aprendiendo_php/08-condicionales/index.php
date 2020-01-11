@@ -78,6 +78,15 @@ switch ($dia){
         break;
     default:
         echo 'Es fin de semana';
-        
+       
 }
+//goto
+goto marca;
+echo '<hr>';
+echo '<h3>Instrución 1</h3>';
+echo '<h3>Instrución 2</h3>';
+echo '<h3>Instrución 3</h3>';
+echo '<h3>Instrución 4</h3>';
+marca:
+    echo '<h1>me he saltado cuatro echo</h1>';
 ?>
