@@ -1,1 +1,4 @@
-Hola soy un archivo de texo.
+Hola soy un archivo de texo...
+asda
+asda
+testSoy un texto metido desde phpSoy un texto metido desde php
