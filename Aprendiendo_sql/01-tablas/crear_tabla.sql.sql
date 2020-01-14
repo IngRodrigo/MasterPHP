@@ -35,11 +35,12 @@ select * from usuarios;
 
 /*Crear una tabla*/
 create table usuarios(
-id int(11) not null, 
-nombre varchar(100),
-apellidos varchar(255),
+id int(11) auto_increment not null, 
+nombre varchar(100) not null,
+apellidos varchar(255) default'Hola que tal?',
 email varchar(255),
-password varchar(255)
+password varchar(255),
+constraint pk_usuarios primary key(id)
 );
 /*Eliminar una tabla*/
 drop table usuarios;
